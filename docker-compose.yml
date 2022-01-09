@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
     flask:
-        restart: always
+        # restart: always
         image: qwlake/flask-crawling-server:latest
         container_name: crawling-server
         ports:
