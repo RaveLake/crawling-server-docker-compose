@@ -9,4 +9,4 @@ services:
             - "8080:8080"
         volumes:
             - /data/log/crawling-server/:/app/log/
-            - /data/log/crawling-server/:/var/log/nginx/
+            - /data/log/crawling-server/:/var/log/nginx/crawling-server/
