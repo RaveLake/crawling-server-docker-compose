@@ -10,3 +10,5 @@ services:
         volumes:
             - /data/log/crawling-server/:/app/log/
             - /data/log/crawling-server/:/var/log/nginx/
+        extra_hosts:
+            - "host.docker.internal:host-gateway"
