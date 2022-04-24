@@ -7,7 +7,7 @@ Dockerizing 해놓은 [craling-server](https://github.com/RaveLake/crawling-serv
 
 ## 사전작업
 ```
-chmod -x start.sh
+chmod 755 start.sh
 ```
 
 ### 수동 실행
